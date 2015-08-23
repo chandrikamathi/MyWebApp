@@ -1,5 +1,6 @@
 html {
     background:grey;
+    
     overflow-y: scroll;
     /* Keeps page centered in all browsers regardless of content height */
 
