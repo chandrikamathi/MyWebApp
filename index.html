@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant Reservation Page</title>
+    <link rel="stylesheet" type="text/css" href="styles/lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/lib/bootstrap-theme.min.css">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+</head>
+<body class="page page-id-1">
+<div id="page" class="hfeed site">
+    <header id="masthead" class="site-header" role="banner">
+        <div class="site-branding">
+            <h1 class="site-title">
+                <img src="http://bit.ly/RhrMEn">
+                <a href="http://www.restauranthomepage.com/" rel="home"><strong>Eateries</strong></a>
+            </h1>
+            <!--<p class="site-description">Caption of the restaurant or a quote</p>-->
+        </div>
+        <div id= "site-navigation" class="navigation-panel">
+            <nav id="navigation" class="main-navigation">
+
+                <ul class="hnav">
+
+                    <li> <a href=#>Home</a></li>
+                    <li> <a href=#>Menu</a></li>
+                    <li>  <a href=#>Contact</a></li>
+                    <li>   <a href=#>About</a></li>
+
+                </ul>
+
+                <div class="menu-toggle x">
+                    <button id="Loginclick" type="button" class="btn btn-link">
+                        Are you a Manager?Click here to sign in
+                    </button>
+                </div>
+
+                <div id="slide"  class="slide-menu">
+
+                    <p id="manager" class="manager-respond">
+                    <h2>Login as an Administrator</h2>
+                    <form method="post" id="login" class="login-form">
+
+                        <p class ="login-details">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@domain.com"></p>
+                        <p class="login-details">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </p>
+                        <div class="text-center">
+                            <button type="submit" class="btn large-btn btn-primary" id="bcsubmit">Submit</button>
+                            <button type="button" class="btn btn-link" id="ccsubmit">Forgot Password?</button>
+                        </div>
+
+                    </form>
+
+                </div><!--#slidemenu_-->
+            </nav>
+        </div>
+    </header><!-- #masthead -->
+
+
+    <section id="panel" class="reservation">
+            <div class="reservation-panel">
+                <h2>Make a Reservation</h2>
+                <form role="form">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="form-details">
+                                <label for="firstNameDetails">FirstName</label>
+                                <input type="text" class="form-control" id="firstNameDetails" placeholder="Enter Your First Name">
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="form-details">
+                                <label for="lastNameDetails">LastName</label>
+                                <input type="text" class="form-control" id="lastNameDetails" placeholder="Enter Your Last Name">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="form-details">
+                            <label for="Date">Date</label>
+                            <input type="date" class="form-control" id="Date" placeholder="MM/DD/YYYY">
+                             </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="form-details">
+                            <label for="Time">Time</label>
+                            <input type="time" class="form-control" id="Time" placeholder="HH:MM">
+                            </p>
+                        </div>
+                    </div>
+
+                            <p class="form-details">
+                                <label for="phone">Phone</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Enter Your Phone">
+                            </p>
+                            <p class="form-details">
+                                <label for="emaildetails">Email</label>
+                                <input type="email" class="form-control" id="emaildetails" placeholder="example@domain.com">
+                            </p>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="form-details">
+                               <label for="Size">Party Size</label>
+                               <input type="number" class="form-control" id="Size" placeholder="# Guests">
+                            </p>
+                        </div>
+                        <div class="col-sm-9">
+                             <p class="form-details">
+                                 <label for="specialOccasion">Special Need</label>
+                                 <input type="text" class="form-control" id="specialOccasion" placeholder="e.g. Birthday, Anniversary etc.">
+                             </p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn large-btn btn-primary" id="dcsubmit">Reserve</button>
+                        <button type="button" class="btn btn-link" id="acsubmit">Change Existing Reservation?</button>
+                    </div>
+                </form>
+            </div>
+
+    </section>
+
+    <footer id="colophon" class="site-footer" role="contentinfo">
+
+    </footer>
+</div><!--#page-->
+<script type='text/javascript' src=scripts/toggle.js></script>
+</body>
+</html>

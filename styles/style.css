@@ -1,0 +1,112 @@
+html {
+    background:grey;
+    overflow-y: scroll;
+    /* Keeps page centered in all browsers regardless of content height */
+
+    -webkit-text-size-adjust: 100%;
+    /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust: 100%;
+    /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+body {
+    font-family:'Monaco', sans-serif;
+    color:#0dd39d;
+    background: white;
+
+}
+
+*:before,
+*:after {
+    /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+}
+.form-wrapper input[type="submit"] {
+    display: block;
+    background: #0dd39d;
+    color: #0dd39d;
+    border: none;
+    padding: 10px 20px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+header{
+     background: -webkit-linear-gradient(top, white,#0dd39d);
+    color: black;
+    /*background-image: url("http://bit.ly/RhrMEn");
+    background-repeat: no-repeat;*/
+    font-style: italic;
+    height:150px;
+}
+footer{
+    background:grey;
+    height: 200px;
+
+}
+.navigation-panel{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background-color: #5f5f5f;
+    opacity: 0.98;
+    height: 40px;
+}
+.hnav {
+list-style: none;
+height: 0;
+}
+.hnav>li {
+    float:left;
+    position: relative;
+    display: block;
+    text-align: -webkit-match-parent;
+    line-height: 0;
+}
+.hnav>li>a {
+    text-transform: uppercase;
+    border-radius: 0;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    font-size: 14px;
+    color:white
+}
+.slide-menu{
+    float:right;
+    background-color:grey;
+    margin:20px;
+    padding:20px;
+    height: 300px;
+    width:500px;
+    display: none;
+}
+
+.reservation-panel{
+    margin: 20px auto;
+    padding: 10px;
+    width : 500px;
+}
+.menu-toggle{
+    float:right;
+}
+#Loginclick, #ccsubmit, #acsubmit{
+    color: #0dd39d;
+}
+.btn-primary {
+    background:#0dd39d ;
+    border: 2px solid #0dd39d;
+}
+.btn.large-btn {
+    width: 200px;
+}
+.btn-filler:after {
+    content:".";
+    padding: 6px 12px;
+    display: inline-block;
+    visibility: hidden;
+}
