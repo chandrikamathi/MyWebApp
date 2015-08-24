@@ -53,6 +53,11 @@ section.tab_pane{
     border: 2px solid #0dd39d;
     margin: 40px;
     padding: 40px;
+
+}
+section.over_panel{
+    max-height: 500px;
+    overflow: scroll;
 }
 .navigation-panel{
     position: absolute;
