@@ -1,6 +1,6 @@
 html {
     background:grey;
-    
+
     overflow-y: scroll;
     /* Keeps page centered in all browsers regardless of content height */
 
@@ -10,7 +10,7 @@ html {
     /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 body {
-    font-family:'Monaco', sans-serif;
+    font-style:Lato,appleLogo,sans-serif;
     color:#0dd39d;
     background: white;
 
@@ -77,6 +77,9 @@ height: 0;
     font-size: 14px;
     color:white
 }
+div.tab_set.on_neutral_grey{
+    display: none;
+}
 .slide-menu{
     float:right;
     background-color:grey;
@@ -86,7 +89,14 @@ height: 0;
     width:500px;
     display: none;
 }
-
+.glyphicon {
+    font-size: 1.4em;
+    margin-right: 8px;
+    top: 5px;
+}
+.holder{
+    color:black;
+}
 .reservation-panel{
     margin: 20px auto;
     padding: 10px;
